@@ -1,0 +1,4 @@
+app/code/community/Foobar/Feedback/                   	      app/code/community/Studioforty9/Feedback/
+app/design/frontend/base/default/template/foobar/*    	      app/design/frontend/base/default/template/foobar
+app/design/frontend/base/default/layout/foobarfeedback.xml    app/design/frontend/base/default/layout/foobarfeedback.xml
+app/etc/modules/Foobar_Feedback.xml          		              app/etc/modules/Foobar_Feedback.xml

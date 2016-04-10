@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<layout version="0.1.0">
+
+    <foobarfeedback_index_index>
+        <reference name="root">
+            <action method="setTemplate"><template>page/2columns-right.phtml</template></action>
+        </reference>
+        <reference name="content">
+            <block type="foobar_feedback/form" name="foobarFeedbackForm" template="foobar/feedback/form.phtml">
+                <block type="studioforty9_recaptcha/explicit" name="studioforty9.recaptcha.explicit" template="studioforty9/recaptcha/explicit.phtml" />
+            </block>
+        </reference>
+    </foobarfeedback_index_index>
+
+</layout>
